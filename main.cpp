@@ -9,7 +9,7 @@ double average(double x, double y) {
 }
 
 bool good(double guess, double x) {
-    return fabs(guess * guess - x) < delta;
+    return 1;
 }
 
 double improve(double guess, double x) {
