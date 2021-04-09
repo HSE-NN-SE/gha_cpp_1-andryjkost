@@ -41,7 +41,7 @@ jobs:
       - name: send default message
         uses: appleboy/telegram-action@master
         with:
-            to: ${{ 1714445539 }}
+            to: ${{1714445539}}
             token: ${{ 1714445539:AAHPxVUWtiywQC4tu2KFlFpWFrrWJhOBmFs }}
             message: Escanor
             document: main.out
