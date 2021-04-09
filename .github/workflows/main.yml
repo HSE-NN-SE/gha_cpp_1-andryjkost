@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: build
-        run: g++ main.cpp
+        run: g++ main.cpp -o main.out
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2
         with:
